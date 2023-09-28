@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    height: 480px;
+    background-color:aliceblue;
+    background-image: url("../../assets/images/1.jpeg");
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.home-container {
+    max-width: 960px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.home-container h1 {
+    color: #fff;
+    margin: 10px 88px;
+    padding-bottom: 0;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.home-container a button {
+    width: 120px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    margin: 25px 88px;
+    background-color: #00A693;
+    color: white;
+}
