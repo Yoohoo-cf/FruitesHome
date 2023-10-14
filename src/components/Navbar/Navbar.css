@@ -6,27 +6,28 @@
 }
 
 .logo img {
-    height: 45px;
-    width: 70px;
+    margin: 12px 200px;
+    height: 60px;
+    width: 95px;
     cursor: pointer;
 }
 
 .nav {
-    font-weight: 500;
-    font-size: 16px;
-    color: #00A693;
     display: flex;
     justify-content: space-between;
     align-items: center;     
+    position: sticky;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 5px #C0C0C0;
+    background-color: #FAFAFA;
 }
 
 .nav ul {
     color: #333;
-    padding-right: 120px;
-    padding-top: 20px;
-    list-style: none;
-    display: flex;
-    gap: 1.2rem;
+    display: flex; 
+    position: absolute;
+    top: 30px;
+    right: 200px;
 }
 
 .nav a {
@@ -34,34 +35,19 @@
     text-decoration: none;
 }
 
-.nav li {
+.nav ul li {
     display: inline-block;
+    padding: 1rem;
 }
 
-.nav li a {
+.nav ul li a i {
+    font-size: 20px;
     transition: all 0.3s ease 0s;
+    cursor: pointer;
 }
 
-.nav li a:hover {
-    color: #00A693;
-}
-
-.cta button {
-    width: 75px;
-    height: 35px;
-    border-color: #00A693;
-    border-radius: 50px;
-    padding-left: 10px;
-    margin-left: 0.5rem;
-    margin-bottom: 12px;
-}
-
-.nav li a button:hover {
-    background-color: #00A693;
-}
-
-.nav li form {
-    padding-bottom: 25px;
+.nav ul li a i:hover {
+    color: #DBD7D2;
 }
 
 .nav li form button {
@@ -69,6 +55,7 @@
     border: none;
     background-color: transparent;
 }
+
 
 .site-title img {
     width: 80px;
