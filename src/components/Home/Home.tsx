@@ -1,10 +1,6 @@
 import "./Home.css";
-import logo2 from "../../assets/logo/logo2.png";
-import apple1 from "../../assets/images/apple1.png";
 import arrow from "../../assets/images/arrow.png";
-import apple2 from "../../assets/images/apple2.png";
-import apple3 from "../../assets/images/apple3.jpeg";
-import Footer from "../Footer/Footer";
+import ProductList from "../ProductList";
 
 function Home() {
   return (
@@ -38,14 +34,15 @@ function Home() {
           </ul>
         </div>
       </div>
-      <section className="product" id="product">
+      <ProductList />
+      {/* <section className="product" id="product">
         <button className="pre-btn">
           <img src={arrow} alt="pre-arrow" />
         </button>
         <button className="nxt-btn">
           <img src={arrow} alt="nxt-arrow" />
-        </button>
-        <h2 className="headtitle">Headline</h2>
+        </button> */}
+      {/* <h2 className="headtitle"></h2>
         <div className="product-container">
           <div className="product-card">
             <div className="product-image">
@@ -53,9 +50,9 @@ function Home() {
               <button className="card-btn">加入购物车</button>
             </div>
             <div className="product-info">
-              <h2 className="product-brand">红富士</h2>
-              <p className="product-description">酸甜多汁， 脆甜可口</p>
-              <span className="price">¥68</span>
+              <h2 className="product-brand">特级十斤装大果</h2>
+              <p className="product-description">果径80mm-85mm, 汁润如蜜</p>
+              <span className="price">¥80</span>
             </div>
           </div>
           <div className="product-card">
@@ -64,9 +61,11 @@ function Home() {
               <button className="card-btn">加入购物车</button>
             </div>
             <div className="product-info">
-              <h2 className="product-brand">红富士</h2>
-              <p className="product-description">酸甜多汁， 脆甜可口</p>
-              <span className="price">¥68</span>
+              <h2 className="product-brand">特级十斤装中果</h2>
+              <p className="product-description">
+                果径75mm-80mm， 秋日解渴，口口天然果汁
+              </p>
+              <span className="price">¥75</span>
             </div>
           </div>
           <div className="product-card">
@@ -75,14 +74,13 @@ function Home() {
               <button className="card-btn">加入购物车</button>
             </div>
             <div className="product-info">
-              <h2 className="product-brand">红富士</h2>
-              <p className="product-description">酸甜多汁， 脆甜可口</p>
-              <span className="price">¥68</span>
+              <h2 className="product-brand">特级五斤装礼品果</h2>
+              <p className="product-description">果径80mm-85mm，颗颗精选</p>
+              <span className="price">¥45</span>
             </div>
           </div>
         </div>
-      </section>
-      <Footer />
+      </section> */}
     </div>
   );
 }

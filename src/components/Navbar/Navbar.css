@@ -1,10 +1,4 @@
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 .logo img {
     margin: 12px 200px;
     height: 60px;
@@ -17,9 +11,9 @@
     justify-content: space-between;
     align-items: center;     
     position: sticky;
-    box-sizing: border-box;
-    box-shadow: 1px 2px 5px #C0C0C0;
-    background-color: #FAFAFA;
+    /* box-shadow: 1px 2px 5px #C0C0C0; */
+    background-color: #fff;
+    z-index: 1;
 }
 
 .nav ul {

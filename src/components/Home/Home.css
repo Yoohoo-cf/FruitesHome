@@ -16,7 +16,7 @@
 .home-image-container {
     height: 450px;
     background-image: url("../../assets/images/2.png");
-    background-size: cover;
+    background-size: 100% 190%;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -40,15 +40,15 @@
 }
 
 .home-image-container a button {
-    width: 120px;
-    height: 41px;
+    width: 160px;
+    height: 50px;
     border-radius: 3px;
     border-width: 1px;
     border-color: #000;
     margin-top: 45px;
     background-color: transparent;
     color: #000;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 
@@ -90,11 +90,15 @@
     margin: 25px auto;
 }
 
-.product .headtitle  {
+/* .product .headtitle  {
     margin-bottom: 60px;
     font-size: 30px;
     text-align: center;
     border-bottom: 2px solid #a8abab;
+} */
+
+.product-description {
+    font-size: 13px;
 }
 
 .product-container {

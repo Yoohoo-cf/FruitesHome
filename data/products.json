@@ -1,0 +1,22 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "特级十斤装大果",
+            "price": 80,
+            "description": "果径80mm-85mm, 汁润如蜜"
+        },
+        {
+            "id": 2,
+            "name": "特级十斤装中果",
+            "price": 75,
+            "description": "果径75mm-80mm， 秋日解渴，口口天然果汁"
+        },
+        {
+            "id": 3,
+            "name": "特级五斤装礼品果",
+            "price": 45,
+            "description": "果径80mm-85mm，颗颗精选"
+        }
+    ]
+}
