@@ -1,0 +1,125 @@
+.hero {
+    width: 100%;
+    height: 100%;
+}
+
+.main-page {
+    position: realtive;
+}
+
+.home-image-container {
+    height: 450px;
+    background-image: url("../../assets/images/2.png");
+    background-size: 100% 190%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    padding-top: 100px;
+}
+
+.home-image-container h1 {
+    color: #000;
+    margin: 10px auto;
+    text-align: center;
+    padding-bottom: 0;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.home-image-container a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.home-image-container a button {
+    width: 160px;
+    height: 50px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #000;
+    margin-top: 45px;
+    background-color: transparent;
+    color: #000;
+    font-size: 14px;
+}
+
+
+.description {
+    height: 7vw;
+    position: relative;
+    top: 10px;
+}
+
+.description ul {
+    list-style: none;
+    margin: 0 auto;
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.description ul li {
+    color: black;
+    display: flex;
+    margin: 0 auto;
+    height: 80px;
+    line-height: 150px; 
+    list-style: none;
+    /* transition: background .5s;  */
+}
+
+.description ul li i {
+    font-size: 25px;
+    margin: 48px auto;
+    padding: 0.5em;
+    /* gap: 1.5rem; */
+}
+
+/* .pre-btn,
+.nxt-btn {
+    border: none;
+    width: 10vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    cursor: pointer;
+    z-index: 9;
+}
+
+.pre-btn {
+    left: 0;
+    transform: rotate(180deg)
+}
+
+.nxt-btn {
+    right: 0;
+} */
+
+/* .pre-btn img,
+.nxt-btn img {
+    opacity: 0.2;
+}
+
+.pre-btn:hover img,
+.nxt-btn:hover img {
+    opacity: 1;
+} */
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,73 @@
+
+.logo img {
+    margin: 12px 200px;
+    height: 60px;
+    width: 99px;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;     
+    position: sticky;
+    /* box-shadow: 1px 2px 5px #C0C0C0; */
+    background-color: #fff;
+    z-index: 1;
+}
+
+.nav ul {
+    color: #333;
+    display: flex; 
+    position: absolute;
+    top: 30px;
+    right: 200px;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 1rem;
+}
+
+/* .nav ul li a i {
+    font-size: 20px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+} */
+
+.fa-magnifying-glass {
+    font-size: 18px;
+}
+
+.fa-bag-shopping,
+.fa-comment-dots {
+    font-size: 21px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    color:#333
+}
+
+.fa-comment-dots:hover {
+    color: #DBD7D2;
+}
+
+.fa-bag-shopping:hover {
+    color: #DBD7D2;
+}
+
+.nav li form button {
+    padding-left: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+
+.site-title img {
+    width: 80px;
+    height: 50px;
+}
