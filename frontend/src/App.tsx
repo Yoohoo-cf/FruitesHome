@@ -21,19 +21,5 @@ function App() {
   );
   return content;
 }
-//   return (
-//     <div>
-//       <Router>
-//         <Navbar />
-//         <Routes>
-//           <Route path="/" element={<Home />} />
-//           <Route path="/cart" element={<Cart />} />
-//           <Route path="/contact" element={<Contact />} />
-//         </Routes>
-//       </Router>
-//       <Footer />
-//     </div>
-//   );
-// }
 
 export default App;

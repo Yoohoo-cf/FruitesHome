@@ -36,12 +36,12 @@ function Home() {
       </div>
       <ProductList />
       {/* <section className="product" id="product">
-        <button className="pre-btn">
-          <img src={arrow} alt="pre-arrow" />
-        </button>
-        <button className="nxt-btn">
-          <img src={arrow} alt="nxt-arrow" />
-        </button> */}
+      <button className="pre-btn">
+        <img src={arrow} alt="pre-arrow" />
+      </button>
+      <button className="nxt-btn">
+        <img src={arrow} alt="nxt-arrow" />
+      </button> */}
     </div>
   );
 }
